@@ -1,0 +1,317 @@
+{
+  "default_title": {
+    "message": "搜图助手"
+  },
+  "description": {
+    "message": "支持多引擎以图搜图；支持淘宝，1688，alibaba电商网站以图搜商品；支持一键提取网页所有图片并可以任意选择下载，方便，简单，快捷。"
+  },
+  "popup_navbarListindexTitle": {
+    "message": "主页"
+  },
+  "popup_navbarListhistoryTitle": {
+    "message": "历史"
+  },
+  "popup_navbarListsettingTitle": {
+    "message": "设置"
+  },
+  "popup_navbarListhelpTitle": {
+    "message": "帮助"
+  },
+  "popup_uploadp": {
+    "message": "搜图助手"
+  },
+  "popup_uploadsmall": {
+    "message": "仅支持单张图片上传"
+  },
+  "popup_history": {
+    "message": "历史记录"
+  },
+  "popup_historyClearAll": {
+    "message": "您确定要清空历史记录么"
+  },
+  "popup_cancel": {
+    "message": "取消"
+  },
+  "popup_sure": {
+    "message": "确定"
+  },
+  "popup_settingshint": {
+    "message": "建议开启数量小于3个，以免影响搜索速度"
+  },
+  "popup_settingsDefaultEngine": {
+    "message": "默认引擎"
+  },
+  "popup_ContextMenus": {
+    "message": "右键菜单"
+  },
+  "popup_helpTitle": {
+    "message": "搜图助手"
+  },
+  "popup_helpVersion": {
+    "message": "版本"
+  },
+  "popup_helpdesc": {
+    "message": "搜图助手是一款能在网络上找寻相似图片的浏览器插件，并支持电商相似产品搜索，同时插件还可以一键提取网页所有图片，提升你找图的效率。"
+  },
+  "popup_helpproblems": {
+    "message": "反馈和建议"
+  },
+  "popup_qqClick": {
+    "message": "点击这里给我发消息"
+  },
+  "popup_qqGroup": {
+    "message": "搜图助手交流群"
+  },
+  "popup_helpemail": {
+    "message": "邮箱"
+  },
+  "background_SearchForSimilar": {
+    "message": "搜索相似"
+  },
+  "background_ExtractImages": {
+    "message": "提取图片(Ctrl+Alt+Shift+E)"
+  },
+  "background_shortCut": {
+    "message": "截图搜索(Ctrl+Alt+Shift+A)"
+  },
+  "extract_SearchByImages": {
+    "message": "搜图助手"
+  },
+  "extract_ExtactDownload": {
+    "message": "提取下载图片"
+  },
+  "extract_download": {
+    "message": "下载"
+  },
+  "extract_selectALL": {
+    "message": "全选"
+  },
+  "extract_selectReverse": {
+    "message": "反选"
+  },
+  "extract_previews": {
+    "message": "预览"
+  },
+  "extract_smallImage": {
+    "message": "小图"
+  },
+  "extract_LargeImage": {
+    "message": "大图"
+  },
+  "extract_order": {
+    "message": "排序"
+  },
+  "extract_orderbigfirst": {
+    "message": "大图优先"
+  },
+  "extract_ordersmallfirst": {
+    "message": "小图优先"
+  },
+  "extract_downloadingWait": {
+    "message":"正在下载请稍后"
+  },
+  "feedback_title": {
+    "message": "搜图助手"
+  },
+  "feedback_touch": {
+    "message": "联系我们"
+  },
+  "feedback_desc": {
+    "message": "反馈建议或需要帮助请联系我们"
+  },
+  "feedback_support": {
+    "message": "你也可以在网上商店给一个好评或者提供支持建议"
+  },
+  "feedback_webstore": {
+    "message": "前往"
+  },
+  "feedback_message": {
+    "message": "问题或建议"
+  },
+  "feedback_messagePlace": {
+    "message": "请写下您的问题或建议"
+  },
+  "feedback_uploadImage": {
+    "message": "上传图片"
+  },
+  "feedback_uploadbutton": {
+    "message": "点击上传图片或截图"
+  },
+  "feedback_email": {
+    "message": "邮箱"
+  },
+  "feedback_send": {
+    "message": "提交"
+  },
+  "feedback_feedbackSuccess": {
+    "message": "感谢您的反馈"
+  },
+  "search_searchEngineTitle": {
+    "message": "搜索引擎"
+  },
+  "search_necEngineTitle": {
+    "message": "特色电商"
+  },
+  "search_orderRuleTitle": {
+    "message": "排序规则"
+  },
+  "search_displayModeTitle": {
+    "message": "展示方式"
+  },
+  "search_orderRuleauto": {
+    "message": "自动排序"
+  },
+  "search_orderRulebigfirst": {
+    "message": "大图优先"
+  },
+  "search_orderRulesmallfirst": {
+    "message": "小图优先"
+  },
+  "search_wordKeyTitle": {
+    "message": "关键词"
+  },
+  "search_searchimgAlt": {
+    "message": "当前搜索的图片"
+  },
+  "search_downloadThisimg": {
+    "message": "下载这张图片"
+  },
+  "search_viewGrouplistTitle": {
+    "message": "列表"
+  },
+  "search_viewGrouplistDesc": {
+    "message": "选中之后页面将以列表的形式展示"
+  },
+  "search_viewGroupimgthumTitle": {
+    "message": "图片墙"
+  },
+  "search_viewGroupimgthumDesc": {
+    "message": "选中之后页面将以缩略图的形式展示"
+  },
+  "search_viewGrouprecommendTitle": {
+    "message": "推荐"
+  },
+  "search_viewGrouprecommendDesc": {
+    "message": "以更直观的方式展示"
+  },
+  "search_shopping": {
+    "message": "购物"
+  },
+  "search_viewMore": {
+    "message": "查看更多"
+  },
+  "search_selectedArea": {
+    "message": "选择区域"
+  },
+  "search_uploadImage": {
+    "message": "上传图片"
+  },
+  "search_uploadp": {
+    "message": "搜图助手"
+  },
+  "search_errorMessage": {
+    "message": "抱歉，没有搜索到结果,您可以"
+  },
+  "search_research": {
+    "message": "重新搜索"
+  },
+  "search_goWebsite": {
+    "message": "前往原网站"
+  },
+  "search_feedback": {
+    "message": "反馈建议"
+  },
+  "search_baiduFrom": {
+    "message": "来源于百度相似图片"
+  },
+  "search_bline": {
+    "message": " 我是有底线的"
+  },
+  "search_similarImage": {
+    "message": "相似图片"
+  },
+  "search_sourceImage": {
+    "message": "图片来源"
+  },
+  "search_allImage": {
+    "message": "全部"
+  },
+  "search_original": {
+    "message": "原网显示"
+  },
+  "search_NoImages": {
+    "message": "对不起,没有搜索到图片"
+  },
+  "search_NoImages1": {
+    "message": "您可以"
+  },
+  "search_NoImages2": {
+    "message": "重新搜索"
+  },
+  "search_NoImages3": {
+    "message": "或者点击右上方原网显示"
+  },
+  "search_loading": {
+    "message": "拼命加载中..."
+  },
+  "search_NoSimilar": {
+    "message": "抱歉,没有找到相似图片"
+  },
+  "search_NoFrom": {
+    "message": "抱歉,没有找到图片来源"
+  },
+  "search_NoSearchGoogle": {
+    "message": "对不起，检测到您当前无法访问Google"
+  },
+  "search_GGAD": {
+    "message": "您可以安装免费的GG google访问助手查看搜索结果"
+  },
+  "search_downloadUrl": {
+    "message": "下载地址"
+  },
+  "search_extractCode": {
+    "message": "提取码"
+  },
+  "search_login1688": {
+    "message": "登录1688"
+  },
+  "search_loginjd": {
+    "message": "登录京东"
+  },
+  "search_loginpddpf": {
+    "message": "登录或前去验证"
+  },
+  "google": {
+    "message": "谷歌"
+  },
+  "baidu": {
+    "message": "百度"
+  },
+  "bing": {
+    "message": "必应"
+  },
+  "yandex": {
+    "message": "yandex"
+  },
+  "sougou": {
+    "message": "搜狗"
+  },
+  "taobao": {
+    "message": "淘宝"
+  },
+  "ali1688": {
+    "message": "1688"
+  },
+  "alibaba": {
+    "message": "阿里巴巴"
+  },
+  "madeinchina": {
+    "message": "中国制造"
+  },
+  "jd": {
+    "message": "京东"
+  },
+  "pddpf": {
+    "message": "拼多多批发"
+  }
+}
