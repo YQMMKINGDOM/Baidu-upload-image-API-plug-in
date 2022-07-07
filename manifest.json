@@ -1,0 +1,39 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "百度api图床上传工具",
+  "default_locale": "zh_CN",
+  "version": "1.0.0",
+  "description": "免费薅百度羊毛 作者：KINGWDY B站:https://space.bilibili.com/524861725",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "assets/logo/logo48.png"
+  },
+  "icons": {
+    "16": "assets/logo/logo16.png",
+    "48": "assets/logo/logo48.png",
+    "128": "assets/logo/logo128.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css":["content.css"],
+    "run_at": "document_start",
+    "all_frames": true
+  }],
+  "manifest_version": 2,
+  "permissions": [
+    "downloads",
+    "contextMenus",
+    "tabs",
+    "storage",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "cookies"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://pifa.pinduoduo.com/; object-src 'self';"
+}

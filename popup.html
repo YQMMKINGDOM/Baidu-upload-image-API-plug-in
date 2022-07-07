@@ -1,0 +1,87 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><title>百度api图床上传工具</title>
+<style>
+            #demo1 * {
+                margin: 0;
+                padding: 0;
+            }
+ 
+            #demo1 a {
+                text-decoration: none;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                /* 按钮居中 */
+                transform: translate(-50%, -50%);
+                font-size: 24px;
+                /* 线性渐变 */
+                background: linear-gradient(90deg, #00aaff, #ffaaff, #ffff00, #00aaff);
+                /* 放大背景 */
+                background-size: 50%;
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                color: #fff;
+                /* 内容始终大写 */
+                text-transform: uppercase;
+                border-radius: 50px;
+                /* 设置层级关系，仅能在定位元素上奏效 */
+                z-index: 1;
+            }
+ 
+            #demo1 a::before {
+                content: "";
+                position: absolute;
+                left: -5px;
+                right: -5px;
+                top: -5px;
+                bottom: -5px;
+                /* 线性渐变 */
+                background: linear-gradient(90deg, #00aaff, #ffaaff, #ffff00, #00aaff);
+                /* 放大背景 */
+                background-size: 400%;
+                border-radius: 50px;
+                /* 设置滤镜 */
+                filter: blur(10px);
+                /* 设置层级关系，仅能在定位元素上奏效 */
+                z-index: -1;
+ 
+            }
+ 
+            #demo1 a:hover::before {
+                /* 鼠标停留开始动画，无限循环 */
+                animation: sum 8s infinite;
+            }
+ 
+ 
+            #demo1 a:hover {
+                /* 鼠标停留开始动画，无限循环 */
+                animation: sum 8s infinite;
+            }
+ 
+            @keyframes sum {
+ 
+                /* 更改背景图片位置 Y轴不变 */
+                100% {
+                    background-position: -400% 0;
+                }
+        </style></head><body>
+        
+        <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic3.zhimg.com%2Fv2-7a34ff25f21f7bd6221c640a2a6914a6_r.jpg&refer=http%3A%2F%2Fpic3.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1659751938&t=c84fa1255e36a2543dc4d66a62b7df62" alt="" width="400" height="200" >
+        <p>【基于百度api】图片上传</p>
+        <form enctype="multipart/form-data" action="https://sp0.baidu.com/6_R1fD_bAAd3otqbppnN2DJv/Pic/upload?pid=super&app=skin&logid=2915142959" method="post">
+        
+                <input type="file" name="file"><br/>
+                <input type="submit" value="上传" onclick='window.open("bedzhao.aspx")' >
+        </form>
+        
+        
+<div id="demo1">
+            <a href="./help.html">使用教程</a>
+        </div>
+
+<p>警告⚠️本项目仅供学习使用，请在24小时内删除！</p>
+<hi>json获取的链接处理工具</hi>
+<a href="https://www.23bei.com/tool/162.html" target="_blank" rel="nofollow">https://www.23bei.com/tool/162.html</a>
+<p>警告⚠️请遵守相关地区的法则，请勿上传带有引战等不当图片！</p>
+<hi>这个链接是不会过期的，所以放心使用！</hi></body></html>

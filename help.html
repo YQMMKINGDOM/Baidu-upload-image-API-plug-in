@@ -1,0 +1,81 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><title>百度api图床上传工具</title>
+<style>
+             
+            #demo1 a {
+                text-decoration: none;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                
+                /* 线性渐变 */
+                background: linear-gradient(90deg, #00aaff, #ffaaff, #ffff00, #00aaff);
+                /* 放大背景 */
+                background-size: 50%;
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                color: #fff;
+                /* 内容始终大写 */
+                text-transform: uppercase;
+                border-radius: 50px;
+                /* 设置层级关系，仅能在定位元素上奏效 */
+                z-index: 1;
+            }
+ 
+            #demo1 a::before {
+                content: "";
+                position: absolute;
+                left: -5px;
+                right: -5px;
+                top: -5px;
+                bottom: -5px;
+                /* 线性渐变 */
+                background: linear-gradient(90deg, #00aaff, #ffaaff, #ffff00, #00aaff);
+                /* 放大背景 */
+                background-size: 400%;
+                border-radius: 50px;
+                /* 设置滤镜 */
+                filter: blur(10px);
+                /* 设置层级关系，仅能在定位元素上奏效 */
+                z-index: -1;
+ 
+            }
+ 
+            #demo1 a:hover::before {
+                /* 鼠标停留开始动画，无限循环 */
+                animation: sum 8s infinite;
+            }
+ 
+ 
+            #demo1 a:hover {
+                /* 鼠标停留开始动画，无限循环 */
+                animation: sum 8s infinite;
+            }
+ 
+            @keyframes sum {
+ 
+                /* 更改背景图片位置 Y轴不变 */
+                100% {
+                    background-position: -400% 0;
+                }
+        </style></head>
+<div id="demo1">
+            <a href="./popup.html">返回</a>
+        </div>
+        <img src="http://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970ad706acf5d0cad1c8a6865df7.jpg" alt="" width="400" height="100" >
+<p>使用教程</p>
+<p>1.选择文件后按住command或ctrl点击鼠标左键</p>
+<p>2.百度会对api反馈出一段json
+<img src="http://imgsrc.baidu.com/super/pic/item/c8177f3e6709c93d811fb32dda3df8dcd000547f.jpg" alt="" width="500" height="300" >
+<p>3.获取pic_water的引号中的链接：</p>
+<img src="http:\\imgsrc.baidu.com\super\pic\item\fcfaaf51f3deb48f49881c04b51f3a292cf57803.jpg" alt="" width="500" height="100" >
+<p>4.再处理一下格式，吧”/“删除即可访问</p>
+<img src="http://imgsrc.baidu.com/super/pic/item/2e2eb9389b504fc26cf102dfa0dde71191ef6dba.jpg" alt="" width="500" height="200" >
+<hi>json获取的链接处理工具</hi>
+<a href="https://www.23bei.com/tool/162.html" target="_blank" rel="nofollow">https://www.23bei.com/tool/162.html</a>
+<p>得出这个链接：http:\imgsrc.baidu.com\super\pic\item\a9d3fd1f4134970ad9daa2f5d0cad1c8a6865dbb.jpg</p>
+<img src="http://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970ad9daa2f5d0cad1c8a6865dbb.jpg" alt="" width="500" height="200" >
+<p>搞定，这个链接是不会过期的，所以放心使用！</p>
+<p>希望大家可以赞助我一下，这个插件写的很简陋，本人才疏学浅，不太会写插件，见谅哈</p>
+<img src="http:\\imgsrc.baidu.com\super\pic\item\43a7d933c895d143b3a159f936f082025baf0710.jpg" alt="" width="200" height="200" >
