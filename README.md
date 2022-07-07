@@ -1,6 +1,8 @@
 # Baidu-upload-image-API-plug-in
 百度上传图片API插件
 
+# gitee分支：https://gitee.com/KINGWDY/Baidu-upload-image-API-plug-in
+
 # 隐私声明和相关条款
 ## 禁止上传任何违反中国法律的内容，禁止上传政治、宗教相关内容！
 ## 所有东西都由用户自行上传的内容我概不承担责任！
