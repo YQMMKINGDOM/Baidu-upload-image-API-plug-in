@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Baidu-upload-image-API-plug-in
+百度上传图片API插件
+# 【使用前请务必查看使用教程！】
 
-You can use the [editor on GitHub](https://github.com/YQMMKINGDOM/Baidu-upload-image-API-plug-in/edit/page/docs/index.md) to maintain and preview the content for your website in Markdown files.
+# 注意⚠️本项目必须登陆百度账号才可使用本图床！
+其实还有另一种办法就是使用cookie，但是也是要登陆账号的！
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# github分支：https://github.com/YQMMKINGDOM/Baidu-upload-image-API-plug-in/
 
-### Markdown
+# 隐私声明和相关条款
+## 禁止上传任何违反中国法律的内容，禁止上传政治、宗教相关内容！
+## 所有东西都由用户自行上传的内容我概不承担责任！
+# 严禁上传及分享如下类型的图片：
+> 含有色情、暴力、宣扬恐怖主义的图片
+> 含有政治、宗教内容的图片
+> 侵犯版权、未经授权的图片
+> 其他违反中国法律的图片
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+# 警告⚠️本项目仅供学习使用，请在24小时内删除！
+# json获取的链接处理工具 https://www.23bei.com/tool/162.html
+# 警告⚠️请遵守相关地区的法则，请勿上传带有引战等不当图片！
 
-# Header 1
-## Header 2
-### Header 3
+![](http://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970ad706acf5d0cad1c8a6865df7.jpg)
+使用教程
+1.选择文件后按住command或ctrl点击鼠标左键
+![](http://imgsrc.baidu.com/super/pic/item/c8177f3e6709c93d811fb32dda3df8dcd000547f.jpg)
+2.百度会对api反馈出一段json 
+![](http://imgsrc.baidu.com/super/pic/item/fcfaaf51f3deb48f49881c04b51f3a292cf57803.jpg)
+3.获取pic_water的引号中的链接：
+![](http://imgsrc.baidu.com/super/pic/item/fcfaaf51f3deb48f49881c04b51f3a292cf57803.jpg)
+4.再处理一下格式，吧”/“删除即可访问
+![](http://imgsrc.baidu.com/super/pic/item/2e2eb9389b504fc26cf102dfa0dde71191ef6dba.jpg)
+ json获取的链接处理工具 https://www.23bei.com/tool/162.html
+得出这个链接：http:\imgsrc.baidu.com\super\pic\item\a9d3fd1f4134970ad9daa2f5d0cad1c8a6865dbb.jpg
+![](http://imgsrc.baidu.com/super/pic/item/a9d3fd1f4134970ad9daa2f5d0cad1c8a6865dbb.jpg)
+# 搞定，这个链接是不会过期的，所以放心使用！
 
-- Bulleted
-- List
+希望大家可以赞助我一下，这个插件写的很简陋，本人才疏学浅，不太会写插件，见谅哈
+![](http://imgsrc.baidu.com/super/pic/item/43a7d933c895d143b3a159f936f082025baf0710.jpg)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YQMMKINGDOM/Baidu-upload-image-API-plug-in/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
