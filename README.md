@@ -1,6 +1,8 @@
 # Baidu-upload-image-API-plug-in
 百度上传图片API插件
 
+# 注意⚠️本项目必须登陆百度账号才可使用本图床！
+
 # gitee分支：https://gitee.com/KINGWDY/Baidu-upload-image-API-plug-in
 
 # 隐私声明和相关条款
