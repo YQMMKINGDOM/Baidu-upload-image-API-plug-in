@@ -3,8 +3,8 @@
 
   "name": "百度api图床上传工具",
   "default_locale": "zh_CN",
-  "version": "1.0.0",
-  "description": "免费薅百度羊毛 作者：KINGWDY B站:https://space.bilibili.com/524861725",
+  "version": "2.0.0",
+  "description": "免费薅百度羊毛 作者：KINGWDY B站:https://space.bilibili.com/524861725 官网：https://yqmmkingdom.github.io/Baidu-upload-image-API-plug-in/",
   "background": {
     "page": "background.html"
   },
