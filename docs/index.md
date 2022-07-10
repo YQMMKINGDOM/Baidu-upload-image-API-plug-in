@@ -2,6 +2,8 @@
 百度上传图片API插件
 # 【使用前请务必查看使用教程！】
 
+[未来发展动向](https://yqmmkingdom.github.io/Baidu-upload-image-API-plug-in/futuredevelopment.html)
+
 # 注意⚠️本项目必须登陆百度账号才可使用本图床！
 其实还有另一种办法就是使用cookie，但是也是要登陆账号的！
 
